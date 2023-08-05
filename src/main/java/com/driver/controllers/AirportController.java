@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.Objects;
 
 @RestController
-public class AirportController {
+public class  AirportController {
     @PostMapping("/add_airport")
     public String addAirport(@RequestBody Airport airport){
 
